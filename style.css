@@ -1,0 +1,79 @@
+body {
+    background-color: #000;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: monospace;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+label{
+    padding: 0 0 10px 0;
+}
+
+p{
+    font-size: .7rem;
+}
+
+input{
+    max-width: 350px;
+    width: 90%;
+    height: 30px;
+    border-radius: 20px;
+    background: #323232;
+    border: none;
+    padding: 5px;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 90%;
+    max-width: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
